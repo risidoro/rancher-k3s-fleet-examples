@@ -1,8 +1,8 @@
 targetCustomizations:
-  - name: west
+  - name: dev
     yaml:
       overlays:
         - green-color
     clusterSelector:
       matchLabels:
-        location: west
+        env: dev
